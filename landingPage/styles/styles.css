@@ -1,0 +1,36 @@
+.wrap-headline
+{
+
+}
+
+div
+{
+  border:1px solid red;
+}
+header
+{
+  background-color: #f8f8f8;
+}
+
+header ul
+{
+  margin:0;
+}
+header a,header li
+{
+  color:#8b0000;
+  font-weight: bold;
+}
+
+section#intro-header
+{
+  background-image: url(../images/backGround.jpg);
+  background-size: cover;
+}
+
+section#intro-header .wrap-headline
+{
+  position:relative;
+  padding-top: 12%;
+  padding-bottom: 12%;
+}

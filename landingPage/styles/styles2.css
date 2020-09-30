@@ -1,0 +1,27 @@
+.header
+{
+  background-image: url(../images/pbuse.jpg);
+  height:973px;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.headerInside
+{
+  width:1170px;
+  height: inherit;
+  margin:0 auto;
+  position: relative;
+}
+
+.logo
+{
+  display: block;
+  position:absolute;
+  width:125px;
+  height:125px;
+  left:70px;
+  top:24px;
+  background:url(../images/sa2.svg);
+  background-size:cover;
+}
