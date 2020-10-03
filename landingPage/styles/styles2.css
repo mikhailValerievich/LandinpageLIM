@@ -2,13 +2,12 @@
 {
   background-image: url(../images/pbuse.webp);
   height:973px;
-  background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
 }
 
 .headerInside
 {
-  width:1500px;
+  width:1000px;
   height: inherit;
   margin:0 auto;
   position: relative;
@@ -28,14 +27,33 @@
 
 .welcomeWrap
 {
-  border:1px solid red;
+  background-color: orange;
   width:270px;
   height:300px;
   position:absolute;
   top:336px;
+  padding-left:
 }
 
 .welcome
 {
+  font-size:30px;
+  line-height:30px;
+  font-family:sans-serif,Verdana,Tahoma;
+}.welcomeText
+{
+  font-family:sans-serif,Verdana,Tahoma;
+}
+.socialIconWrap
+{
+    position: absolute;
 
+    display: flex;
+    justify-content: space-between;
+
+    right: 35px;
+    top:30px;
+    width: 150px;
+
+    border: 1px solid black;
 }
