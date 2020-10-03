@@ -1,6 +1,6 @@
 .header
 {
-  background-image: url(../images/pbuse.jpg);
+  background-image: url(../images/pbuse.webp);
   height:973px;
   background-repeat: no-repeat;
   background-size:cover;
@@ -8,7 +8,7 @@
 
 .headerInside
 {
-  width:1170px;
+  width:1500px;
   height: inherit;
   margin:0 auto;
   position: relative;
@@ -24,4 +24,18 @@
   top:24px;
   background:url(../images/sa2.svg);
   background-size:cover;
+}
+
+.welcomeWrap
+{
+  border:1px solid red;
+  width:270px;
+  height:300px;
+  position:absolute;
+  top:336px;
+}
+
+.welcome
+{
+
 }
