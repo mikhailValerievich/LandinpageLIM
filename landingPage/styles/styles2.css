@@ -27,6 +27,7 @@
 
 .welcomeWrap
 {
+  padding:25 25 0 25;
   background-color: orange;
   width:270px;
   height:300px;
@@ -40,8 +41,18 @@
   font-size:30px;
   line-height:30px;
   font-family:sans-serif,Verdana,Tahoma;
-}.welcomeText
+  text-align: center;
+  padding: 25px 25px 0px 25px;
+}
+.welcomeText
 {
+  font-family:sans-serif,Verdana,Tahoma;
+}
+
+.textP
+{
+  display:flex;
+  align-items: center;
   font-family:sans-serif,Verdana,Tahoma;
 }
 .socialIconWrap
